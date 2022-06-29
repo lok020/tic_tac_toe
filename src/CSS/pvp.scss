@@ -1,0 +1,74 @@
+.pvp{
+    background: $main-background;
+    color: $main-text-color;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .next-player{
+        width: 30%;
+        font-size: 2em;
+        background: $accent-background;
+        color: $main-text-color;
+        border-radius: 10px;
+        padding: 5px;
+        margin-bottom: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .game-over{
+        background: red;
+        width: 50%;
+        background: $accent-background;
+        color: $main-text-color;
+        border-radius: 10px;
+        padding: 5px;
+        margin-bottom: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .game-over-action{
+            display: flex;
+            width: 100%;
+
+            .action-btn{
+                width: 50%;
+                background: $main-background;
+                color: $accent-background;
+                border: 8px double $accent-background;
+                border-radius: 10px;
+                font-size: 1.5em;
+                margin: 5px;
+                padding: 5px;
+                text-decoration: none;
+
+                .title{
+                    width: 100%;
+                    height: 100%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+            }
+        }
+
+        .announcer{
+            width: 50%;
+            font-size: 2.5em;
+            background: $accent-background;
+            color: $main-text-color;
+            border-radius: 10px;
+            padding: 5px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}

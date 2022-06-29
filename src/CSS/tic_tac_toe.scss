@@ -1,0 +1,13 @@
+$main-background: #9DBEBB;
+$main-text-color: #000000;
+$accent-background: #FFF;
+
+$border-radius: 25px;
+
+
+.tic-tac-toe {
+
+  @import "./menu.scss";
+  @import "./board.scss";
+  @import "./pvp.scss";
+}

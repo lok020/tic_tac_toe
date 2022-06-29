@@ -1,0 +1,58 @@
+.menu{
+    background: $main-background;
+    color: $main-text-color;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .logo{
+        font-size: 5em;
+        font-weight: bold;
+        text-shadow: 4px 4px $accent-background;
+    }
+
+    .game-mode-area{
+        display: flex;
+
+        .game-mode{
+            background: $accent-background;
+            padding: 50px;
+            margin: 15px;
+            border: 10px solid $main-text-color;
+            border-radius: $border-radius;
+            text-decoration: none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+    }
+    
+
+    .options{
+        width: 20%;
+        padding: 10px;
+        margin: 10px;
+        background: $accent-background;
+        border: 10px solid $main-text-color;
+        border-radius: $border-radius;
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .title{
+        font-size: 3em;
+        color: $main-text-color;
+    }
+
+    .credit{
+        color: transparent;
+        position: absolute;
+        bottom: 0;
+    }
+}
