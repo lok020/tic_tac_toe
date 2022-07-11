@@ -128,7 +128,7 @@ class PVP extends PureComponent {
             </div>
           </div>
           }
-          <Board values={this.state.values} handlePlayerChoice={this.handlePlayerChoice}/>
+          <Board values={this.state.values} handlePlayerChoice={this.handlePlayerChoice} is_computer_turn={false}/>
         </div>
     )
   }

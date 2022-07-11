@@ -12,10 +12,10 @@ class Board extends PureComponent {
   }
 
   render() {  
-    const { values, handlePlayerChoice } = this.props;
+    const { values, handlePlayerChoice, is_computer_turn } = this.props;
 
     return (
-      <div className='board'>
+      <div className='board' style={{pointerEvents: is_computer_turn ? "none" : ""}}>
         <div className="board-row">
           <Square id={0} value={values[0]} onClick={handlePlayerChoice} />
           <Square id={1} value={values[1]} onClick={handlePlayerChoice} />

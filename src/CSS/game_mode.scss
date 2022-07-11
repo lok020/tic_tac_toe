@@ -1,4 +1,4 @@
-.pvp{
+.pvp,.pve{
     background: $main-background;
     color: $main-text-color;
     width: 100vw;
@@ -48,6 +48,7 @@
                 margin: 5px;
                 padding: 5px;
                 text-decoration: none;
+                cursor: pointer;
 
                 .title{
                     width: 100%;
