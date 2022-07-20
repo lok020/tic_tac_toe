@@ -1,13 +1,27 @@
-$main-background: #9DBEBB;
-$main-text-color: #000000;
-$accent-background: #FFF;
-
 $border-radius: 25px;
 
+:root{
+  --background-1: #9DBEBB;
+  --text-color-1: #000000;
+  --accent-1:     #FFF;
+
+  --background-2: #343a40;
+  --text-color-2: #fdfffc;
+  --accent-2:     #011627;
+
+  --background-3: #fbff12;
+  --text-color-3: #FFF;
+  --accent-3:     #ff206e;
+
+  --main-background: var(--background-1);
+  --main-text-color: var(--text-color-1);
+  --accent-background: var(--accent-1);
+}
 
 .tic-tac-toe {
 
   @import "./menu.scss";
   @import "./board.scss";
   @import "./game_mode.scss";
+  @import "./setting.scss";
 }

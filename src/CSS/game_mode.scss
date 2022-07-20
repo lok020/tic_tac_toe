@@ -1,6 +1,6 @@
 .pvp,.pve{
-    background: $main-background;
-    color: $main-text-color;
+    background: var(--main-background);
+    color: var(--main-text-color);
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -11,8 +11,8 @@
     .next-player{
         width: 30%;
         font-size: 2em;
-        background: $accent-background;
-        color: $main-text-color;
+        background: var(--accent-background);
+        color: var(--main-text-color);
         border-radius: 10px;
         padding: 5px;
         margin-bottom: 15px;
@@ -24,8 +24,8 @@
     .game-over{
         background: red;
         width: 50%;
-        background: $accent-background;
-        color: $main-text-color;
+        background: var(--accent-background);
+        color: var(--main-text-color);
         border-radius: 10px;
         padding: 5px;
         margin-bottom: 15px;
@@ -40,9 +40,9 @@
 
             .action-btn{
                 width: 50%;
-                background: $main-background;
-                color: $accent-background;
-                border: 8px double $accent-background;
+                background: var(--main-background);
+                color: var(--accent-background);
+                border: 8px double var(--accent-background);
                 border-radius: 10px;
                 font-size: 1.5em;
                 margin: 5px;
@@ -63,8 +63,8 @@
         .announcer{
             width: 50%;
             font-size: 2.5em;
-            background: $accent-background;
-            color: $main-text-color;
+            background: var(--accent-background);
+            color: var(--main-text-color);
             border-radius: 10px;
             padding: 5px;
             display: flex;

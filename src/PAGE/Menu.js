@@ -1,8 +1,7 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Outlet, Link } from "react-router-dom";
 
 function Menu() {
-
 
   return (
     <div className='menu'>
@@ -20,9 +19,9 @@ function Menu() {
       <Link to="/Setting" id="Setting" className="options">
         <div id="Setting" className="title">{"Setting"}</div>
       </Link>
-      <Link to="/Bonus" id="Bonus" className="options">
+      {/* <Link to="/Bonus" id="Bonus" className="options">
         <div id="Bonus" className="title">{"Bonus"}</div>
-      </Link>
+      </Link> */}
       <div className='credit'>{"Design & Develop by Wai Lok Cheng"}</div>
     </div>
   )

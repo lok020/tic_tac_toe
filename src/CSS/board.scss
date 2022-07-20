@@ -10,8 +10,8 @@
         .square{
             width: 33.3%;
             height: 100%;
-            border: 3px solid $main-background;
-            background: $accent-background;
+            border: 3px solid var(--main-background);
+            background: var(--accent-background);
         }
     }
 }

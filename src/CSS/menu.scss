@@ -1,6 +1,6 @@
 .menu{
-    background: $main-background;
-    color: $main-text-color;
+    background: var(--main-background);
+    color: var(--main-text-color);
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -11,17 +11,17 @@
     .logo{
         font-size: 5em;
         font-weight: bold;
-        text-shadow: 4px 4px $accent-background;
+        text-shadow: 4px 4px var(--accent-background);
     }
 
     .game-mode-area{
         display: flex;
 
         .game-mode{
-            background: $accent-background;
+            background: var(--accent-background);
             padding: 50px;
             margin: 15px;
-            border: 10px solid $main-text-color;
+            border: 10px solid var(--main-text-color);
             border-radius: $border-radius;
             text-decoration: none;
             display: flex;
@@ -36,8 +36,8 @@
         width: 20%;
         padding: 10px;
         margin: 10px;
-        background: $accent-background;
-        border: 10px solid $main-text-color;
+        background: var(--accent-background);
+        border: 10px solid var(--main-text-color);
         border-radius: $border-radius;
         text-decoration: none;
         display: flex;
@@ -47,7 +47,7 @@
     
     .title{
         font-size: 3em;
-        color: $main-text-color;
+        color: var(--main-text-color);
     }
 
     .credit{
